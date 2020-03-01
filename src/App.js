@@ -3,6 +3,7 @@ import "./App.css";
 import { Header } from "./components/Header";
 import { Balance } from "./components/Balance";
 import { Expenses } from "./components/Expenses";
+import { Transaction } from "./components/Transaction";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div className="container">
         <Balance />
         <Expenses />
+        <Transaction />
       </div>
     </div>
   );
